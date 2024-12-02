@@ -76,6 +76,7 @@ def procesar_secuencias(archivo_fna, motivo, archivo_salida):
 # Definir las rutas de entrada y salida
 archivo_fna = "C:/Users/Samuel/PycharmProjects/PARCIAL1/Bsubtilis_CDS.fna.txt"  # Ruta del archivo .fna.txt(Pon tu ruta)
 motivo = "TATAAA"  # Motivo de ejemplo (puedes cambiarlo a lo que busques)
+motivo = motivo.upper()
 archivo_salida = "resultados_motivos.xlsx"  # Ruta de salida para el archivo Excel
 
 # Ejecutar la función principal
